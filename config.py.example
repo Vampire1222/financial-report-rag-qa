@@ -1,0 +1,13 @@
+"""
+配置文件模板：复制这个文件为 config.py，并填入你自己的智谱API Key
+获取地址：https://open.bigmodel.cn （注册后在"API Keys"页面查看）
+
+使用方法：
+    cp config.py.example config.py
+    然后编辑 config.py，把下面的占位符替换成你自己的key
+
+注意：config.py 已经加入 .gitignore，不会被提交到git仓库，
+      避免API Key意外泄露到公开的GitHub仓库里。
+"""
+
+ZHIPU_API_KEY = "填入你自己的智谱API Key，形如 xxxxxxxx.xxxxxxxxxxxxxxxx"
